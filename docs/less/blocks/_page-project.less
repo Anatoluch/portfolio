@@ -39,8 +39,10 @@
   @media (min-width: 1200px) {
     font-size: 48px;
   }
+}
+.project-page-title .section-title span {
   &::after {
-    bottom: 0px;
+    bottom: 4px;
     left: -5px;
     right: -5px;
     height: 11px;
@@ -49,7 +51,7 @@
     }
     //Для десктопа
     @media (min-width: 1200px) {
-      bottom: 3px;
+      bottom: 8px;
       left: -3px;
       right: -3px;
       height: 10px;
@@ -58,14 +60,14 @@
 }
 .section-title.section-title--smaller {
   font-size: 26px;
-    //Для планшета
-    @media (min-width: 768px) {
-      font-size: 42px;
-    }
-    //Для десктопа
-    @media (min-width: 1200px) {
-      font-size: 48px;
-    }
+  //Для планшета
+  @media (min-width: 768px) {
+    font-size: 42px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    font-size: 48px;
+  }
 }
 .soft-icons {
   margin: 0 auto;
@@ -125,6 +127,7 @@
     display: block;
     padding-top: 3px;
     width: 40%;
+    max-height: unset;
   }
 }
 .project-links-row {
